@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity1">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONDUCTOR"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+
+
+
+    <EditText
+        android:id="@+id/NOMBRE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="NOMBRE"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/DOMICILIO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="DOMICILIO"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/LICENCIA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="NO LICENCIA"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/VENCE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="FECHA DE VENCIMIENTO"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:textSize="15sp" />
+
+
+    <Button
+        android:id="@+id/BTNINSERTAR"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginRight="250dp"
+        android:text="Insertar"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/BTNBUSCAR"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="-35dp"
+        android:text="Consultar"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/BORRAR"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="-35dp"
+        android:layout_marginRight="120dp"
+        android:text="Borrar"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="363dp" />
+
+    <Button
+        android:id="@+id/EXPORTAR"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="120dp"
+        android:text="EXPORTAR"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/CONSULTAS"
+        android:layout_width="394dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="120dp"
+        android:text="CONSULTAS"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</LinearLayout>
